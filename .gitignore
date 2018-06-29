@@ -2,12 +2,16 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
+allin-webpack-boilerplate/
+demo/
+
 ## Build generated
 build/
 DerivedData/
 
 ## Various settings
 *.pbxuser
+*.cer
 !default.pbxuser
 *.mode1v3
 !default.mode1v3
@@ -61,3 +65,8 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+/node_modules/
+h5/allin/node_modules/
+h5/@allin/node_modules/
+h5/allin-cli/node_modules/
+iOS/allin/Example/Pods

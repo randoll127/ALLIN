@@ -1,0 +1,20 @@
+{
+  "name": "all-in-scripts",
+  "version": "1.0.0",
+  "description": "node scripts tool",
+  "main": "index.js",
+  "bin": {
+    "allin": "bin/allin.js"
+  },
+  "scripts": {
+    "allin": "bin/allin.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "inquirer": "^5.2.0",
+    "walk": "^2.3.13"
+  }
+}

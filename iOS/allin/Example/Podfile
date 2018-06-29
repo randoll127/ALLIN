@@ -1,0 +1,8 @@
+use_frameworks!
+
+target 'allin_Example' do
+  # pod 'allin/Base', :path => '../'
+  pod 'allin/Net', :path => '../'
+  pod 'Aspects'
+  pod 'ReactiveObjC'
+end
